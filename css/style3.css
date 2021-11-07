@@ -1,0 +1,109 @@
+#container {
+
+    width: 704px;
+    text-align: justify;
+    background: #fff;
+    margin: auto;
+}
+
+body {
+    background-color: #cccccc;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 11px;
+
+}
+
+h1 {
+    position: relative;
+    top: 15px;
+}
+
+p::first-letter {
+    color: blue;
+    font-weight: bold;
+    font-size: 38px;
+    font-family: "Times New Roman", Times, Baskerville, Georgia, serif;
+}
+
+#content {
+    width: 704px;
+    height: auto;
+    float: left;
+    background-color: #fff;
+    box-sizing:border-box;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+#header {
+    height: 50px;
+    background-color: #b0b0b0;
+    padding-left: 40px;
+
+    
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    width: 720px;
+    list-style: none;
+    text-transform: uppercase;
+}
+
+ul li {
+    display: inline;
+    float: left;
+    list-style: none;
+    font-size: 12px;
+}
+
+a {
+    padding: 0 8px 0 8px;
+    line-height: 25px;
+    text-decoration: none;
+    color: #fff;
+    float: left;
+    display: block;
+    background-image: url(/images/nb.gif);
+    background-repeat: repeat-x;
+}
+
+.image {
+    position: relative;
+    top: 10px;
+    left: 10px;
+    height: 550px;
+}
+
+img {
+    position: relative;
+}
+
+#font2 {
+    top: -100px;
+    left: 270px;
+}
+
+/* 
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+    text-decoration: none;
+}
+*/
+
+a:hover {
+    color: #333;
+}
+
+/* 
+a:active {
+    color: black;
+    font-weight: bold;
+    text-decoration: underline;
+} */
